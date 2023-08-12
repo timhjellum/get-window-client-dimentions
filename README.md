@@ -25,18 +25,13 @@ const getActualWidth = () => {
   )
 }
 ```
----
+in your .JS file
 ```javascript
-import getWindowWidth from '../getWindowWidth.js'
-import getActualWidth from '../getWindowWidth.js'
-```
-On your .JS file
-```javascript
-window.addEventListener('scroll', runPageNavigation)
-window.addEventListener('resize', runPageNavigation)
-window.addEventListener('load', runPageNavigation)
+window.addEventListener('scroll', runScript)
+window.addEventListener('resize', runScript)
+window.addEventListener('load', runScript)
 
-function runPageNavigation() {
+function runScript() {
   console.log((getWindowWidth() + 'px')
   console.log((getActualWidth() + 'px')
 }
