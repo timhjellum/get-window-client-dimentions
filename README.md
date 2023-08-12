@@ -1,4 +1,4 @@
-# get-window-client-dimentions
+# Get Window Client Dimentions
 
 Paste the below JavaScript:
 ---
